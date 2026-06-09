@@ -7,3 +7,6 @@ To challenge myself and go beyond the tutorial, I added a file mapping so that w
 # What I learned 
 From this project, I learned about import os, which is a module that provides a portable way to access the operating system.
 I also learned about import shutil, which provides high-level operations for managing files.
+# Challenges
+While formatting the textoutput for my mapping system, I ran into a problem where the text wouldn't display correctly dut to a missing comma. 
+This taught me how precise python syntx needs to be and formatting tools like f-strings.
