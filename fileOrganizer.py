@@ -1,7 +1,6 @@
 import os
 import shutil
 import collections
-from pprint import pprint
 
 path = input("Enter Path: ")
 files = os.listdir(path)
@@ -20,5 +19,11 @@ file_mappings = collections.defaultdict()
 for filename in os.listdir(path):
     file_type = filename.split('.')[-1]
     file_mappings.setdefault(file_type, []).append(filename)
-pprint(file_mappings)
+
+name, ext = os.path.splitext(file)
+print(name)
+print(ext)
+
+# print results
+print("file mapping--->", file_mappings)
 print(f"moved: {filename}")
